@@ -1,0 +1,32 @@
+.full-view {
+    background-color: var(--colors-brand-Surface);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.scroll-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.layout-view {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 3fr;
+    grid-template-rows: repeat(7, 1fr);
+
+    padding: 10px;
+    gap: 0.5rem;
+    background-color: var(--colors-brand-primaryContainer);
+    width: 95vw;
+    height: 95vh;
+    border-radius: 16px;
+
+}

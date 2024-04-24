@@ -1,0 +1,23 @@
+.size-xs {
+    font-size: var(--fontSize-xs);
+}
+
+.size-s {
+    font-size: var(--fontSize-sm);
+}
+
+.size-m {
+    font-size: var(--fontSize-base);
+}
+
+.size-l {
+    font-size: var(--fontSize-lg);
+}
+
+.isBold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

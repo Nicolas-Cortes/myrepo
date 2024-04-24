@@ -1,0 +1,23 @@
+.input {
+    border-radius: 4px;
+    border: 1px solid var(--colors-brand-outline);
+    padding: 10px 10px;
+    font-size: var(--fontSize-base);
+}
+
+.input:focus {
+    border: 2px solid var(--colors-brand-primary);
+    color: var(--colors-brand-primary);
+    outline: none;
+}
+
+.isOutlined {
+    outline: none;
+    border: none;
+    background-color: var(--colors-transparent);
+}
+
+.isOutlined:focus {
+    outline: none;
+    border: none;
+}

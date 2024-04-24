@@ -1,0 +1,1 @@
+export const IMG = 'https://avatars.githubusercontent.com/u/35453779?v=4'

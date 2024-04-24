@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    border-radius: inherit;
+}
+
+.container::-webkit-scrollbar {
+    border-radius: inherit;
+    width: 5px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: var(--colors-brand-primary);
+    border-radius: inherit;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+li {
+    border-bottom: 1px dashed var(--colors-brand-scrim);
+    font-size: 18px;
+    color: var(--colors-brand-primary);
+    font-weight: 400;
+    width: 90%;
+    position: relative;
+}

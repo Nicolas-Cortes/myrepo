@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    padding: 5px;
+    height: auto;
+    width: auto;
+}
+
+.checkBox:hover {
+    cursor: pointer;
+}
